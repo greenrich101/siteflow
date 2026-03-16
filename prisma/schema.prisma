@@ -1,0 +1,123 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Job {
+  id              String    @id @default(cuid())
+  jobNumber       String    @unique
+  clientName      String
+  siteAddress     String
+  phone           String?
+  email           String?
+  phase           String    @default("quoting")
+  quoteAmount     Float?
+  quoteSentDate   DateTime?
+  contractSigned  DateTime?
+  startDate       DateTime?
+  targetEndDate   DateTime?
+  percentComplete Float     @default(0)
+  notes           String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  variations     Variation[]
+  progressClaims ProgressClaim[]
+  documents      Document[]
+  dailyLogs      DailyLog[]
+  jobSubbies     JobSubbie[]
+}
+
+model Variation {
+  id          String   @id @default(cuid())
+  jobId       String
+  title       String
+  description String?
+  amount      Float
+  status      String   @default("pending")
+  createdAt   DateTime @default(now())
+
+  job Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+model ProgressClaim {
+  id          String    @id @default(cuid())
+  jobId       String
+  claimNumber Int
+  amount      Float
+  dateSent    DateTime
+  datePaid    DateTime?
+  status      String    @default("sent")
+  createdAt   DateTime  @default(now())
+
+  job Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+model Document {
+  id         String   @id @default(cuid())
+  jobId      String
+  folder     String
+  subfolder  String?
+  fileName   String
+  filePath   String
+  uploadedAt DateTime @default(now())
+
+  job Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+model DailyLog {
+  id        String   @id @default(cuid())
+  jobId     String
+  date      DateTime
+  notes     String
+  weather   String?
+  onSite    String?
+  createdAt DateTime @default(now())
+
+  job Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+model Subcontractor {
+  id              String    @id @default(cuid())
+  trade           String
+  companyName     String
+  contactName     String?
+  phone           String?
+  email           String?
+  abn             String?
+  insuranceExpiry DateTime?
+  rateBasis       String?
+  rating          Int?
+  notes           String?
+  createdAt       DateTime  @default(now())
+
+  jobSubbies JobSubbie[]
+}
+
+model JobSubbie {
+  id              String    @id @default(cuid())
+  jobId           String
+  subcontractorId String
+  quoteAmount     Float?
+  status          String    @default("quoted")
+  scheduledStart  DateTime?
+  scheduledEnd    DateTime?
+
+  job           Job           @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  subcontractor Subcontractor @relation(fields: [subcontractorId], references: [id], onDelete: Cascade)
+}
+
+model Settings {
+  id            String @id @default("default")
+  businessName  String @default("")
+  abn           String @default("")
+  phone         String @default("")
+  email         String @default("")
+  address       String @default("")
+  jobPrefix     String @default("FO-")
+  nextJobNumber Int    @default(4)
+}
