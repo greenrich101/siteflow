@@ -1121,12 +1121,37 @@ export const SubcontractorScalarFieldEnum = {
   contactName: 'contactName',
   phone: 'phone',
   email: 'email',
+  address: 'address',
   abn: 'abn',
+  gstRegistered: 'gstRegistered',
   insuranceExpiry: 'insuranceExpiry',
   rateBasis: 'rateBasis',
   rating: 'rating',
   notes: 'notes',
-  createdAt: 'createdAt'
+  createdAt: 'createdAt',
+  emergencyContactName: 'emergencyContactName',
+  emergencyContactPhone: 'emergencyContactPhone',
+  licenceNumber: 'licenceNumber',
+  licenceExpiry: 'licenceExpiry',
+  whiteCardNumber: 'whiteCardNumber',
+  whiteCardState: 'whiteCardState',
+  additionalTickets: 'additionalTickets',
+  licenceDocPath: 'licenceDocPath',
+  pliProvider: 'pliProvider',
+  pliPolicyNumber: 'pliPolicyNumber',
+  pliCoverAmount: 'pliCoverAmount',
+  pliExpiry: 'pliExpiry',
+  wcPolicyNumber: 'wcPolicyNumber',
+  wcExpiry: 'wcExpiry',
+  insuranceDocPath: 'insuranceDocPath',
+  siteInduction: 'siteInduction',
+  ackSWMS: 'ackSWMS',
+  ackPPE: 'ackPPE',
+  ackIncidentReporting: 'ackIncidentReporting',
+  ackDrugAlcohol: 'ackDrugAlcohol',
+  ackEnvironmental: 'ackEnvironmental',
+  whsNotes: 'whsNotes',
+  onboardingComplete: 'onboardingComplete'
 } as const
 
 export type SubcontractorScalarFieldEnum = (typeof SubcontractorScalarFieldEnum)[keyof typeof SubcontractorScalarFieldEnum]
@@ -1206,6 +1231,13 @@ export type DateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel
  * Reference to a field of type 'Int'
  */
 export type IntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int'>
+    
+
+
+/**
+ * Reference to a field of type 'Boolean'
+ */
+export type BooleanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Boolean'>
     
 
 /**

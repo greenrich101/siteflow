@@ -358,19 +358,34 @@ export default function SubbiesPage() {
                       {sub.notes ?? "-"}
                     </TableCell>
                     <TableCell className="hidden lg:table-cell">
-                      <div className="flex flex-wrap gap-1">
+                      <div className="flex items-center gap-1 max-w-[200px] overflow-hidden">
                         {sub.jobSubbies.length === 0 ? (
                           <span className="text-muted-foreground">-</span>
-                        ) : (
+                        ) : sub.jobSubbies.length <= 3 ? (
                           sub.jobSubbies.map((js) => (
                             <Badge
                               key={js.id}
                               variant="outline"
-                              className="text-[10px]"
+                              className="text-[10px] shrink-0"
                             >
                               {js.job.jobNumber}
                             </Badge>
                           ))
+                        ) : (
+                          <>
+                            {sub.jobSubbies.slice(0, 2).map((js) => (
+                              <Badge
+                                key={js.id}
+                                variant="outline"
+                                className="text-[10px] shrink-0"
+                              >
+                                {js.job.jobNumber}
+                              </Badge>
+                            ))}
+                            <span className="text-[10px] text-muted-foreground shrink-0">
+                              +{sub.jobSubbies.length - 2} more
+                            </span>
+                          </>
                         )}
                       </div>
                     </TableCell>

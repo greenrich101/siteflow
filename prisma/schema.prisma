@@ -88,12 +88,39 @@ model Subcontractor {
   contactName     String?
   phone           String?
   email           String?
+  address         String?
   abn             String?
+  gstRegistered   String?
   insuranceExpiry DateTime?
   rateBasis       String?
   rating          Int?
   notes           String?
   createdAt       DateTime  @default(now())
+
+  // Onboarding fields
+  emergencyContactName  String?
+  emergencyContactPhone String?
+  licenceNumber         String?
+  licenceExpiry         DateTime?
+  whiteCardNumber       String?
+  whiteCardState        String?
+  additionalTickets     String?
+  licenceDocPath        String?
+  pliProvider           String?
+  pliPolicyNumber       String?
+  pliCoverAmount        String?
+  pliExpiry             DateTime?
+  wcPolicyNumber        String?
+  wcExpiry              DateTime?
+  insuranceDocPath      String?
+  siteInduction         String?
+  ackSWMS               Boolean   @default(false)
+  ackPPE                Boolean   @default(false)
+  ackIncidentReporting  Boolean   @default(false)
+  ackDrugAlcohol        Boolean   @default(false)
+  ackEnvironmental      Boolean   @default(false)
+  whsNotes              String?
+  onboardingComplete    Boolean   @default(false)
 
   jobSubbies JobSubbie[]
 }

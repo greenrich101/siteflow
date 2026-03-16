@@ -41,12 +41,37 @@ export type SubcontractorMinAggregateOutputType = {
   contactName: string | null
   phone: string | null
   email: string | null
+  address: string | null
   abn: string | null
+  gstRegistered: string | null
   insuranceExpiry: Date | null
   rateBasis: string | null
   rating: number | null
   notes: string | null
   createdAt: Date | null
+  emergencyContactName: string | null
+  emergencyContactPhone: string | null
+  licenceNumber: string | null
+  licenceExpiry: Date | null
+  whiteCardNumber: string | null
+  whiteCardState: string | null
+  additionalTickets: string | null
+  licenceDocPath: string | null
+  pliProvider: string | null
+  pliPolicyNumber: string | null
+  pliCoverAmount: string | null
+  pliExpiry: Date | null
+  wcPolicyNumber: string | null
+  wcExpiry: Date | null
+  insuranceDocPath: string | null
+  siteInduction: string | null
+  ackSWMS: boolean | null
+  ackPPE: boolean | null
+  ackIncidentReporting: boolean | null
+  ackDrugAlcohol: boolean | null
+  ackEnvironmental: boolean | null
+  whsNotes: string | null
+  onboardingComplete: boolean | null
 }
 
 export type SubcontractorMaxAggregateOutputType = {
@@ -56,12 +81,37 @@ export type SubcontractorMaxAggregateOutputType = {
   contactName: string | null
   phone: string | null
   email: string | null
+  address: string | null
   abn: string | null
+  gstRegistered: string | null
   insuranceExpiry: Date | null
   rateBasis: string | null
   rating: number | null
   notes: string | null
   createdAt: Date | null
+  emergencyContactName: string | null
+  emergencyContactPhone: string | null
+  licenceNumber: string | null
+  licenceExpiry: Date | null
+  whiteCardNumber: string | null
+  whiteCardState: string | null
+  additionalTickets: string | null
+  licenceDocPath: string | null
+  pliProvider: string | null
+  pliPolicyNumber: string | null
+  pliCoverAmount: string | null
+  pliExpiry: Date | null
+  wcPolicyNumber: string | null
+  wcExpiry: Date | null
+  insuranceDocPath: string | null
+  siteInduction: string | null
+  ackSWMS: boolean | null
+  ackPPE: boolean | null
+  ackIncidentReporting: boolean | null
+  ackDrugAlcohol: boolean | null
+  ackEnvironmental: boolean | null
+  whsNotes: string | null
+  onboardingComplete: boolean | null
 }
 
 export type SubcontractorCountAggregateOutputType = {
@@ -71,12 +121,37 @@ export type SubcontractorCountAggregateOutputType = {
   contactName: number
   phone: number
   email: number
+  address: number
   abn: number
+  gstRegistered: number
   insuranceExpiry: number
   rateBasis: number
   rating: number
   notes: number
   createdAt: number
+  emergencyContactName: number
+  emergencyContactPhone: number
+  licenceNumber: number
+  licenceExpiry: number
+  whiteCardNumber: number
+  whiteCardState: number
+  additionalTickets: number
+  licenceDocPath: number
+  pliProvider: number
+  pliPolicyNumber: number
+  pliCoverAmount: number
+  pliExpiry: number
+  wcPolicyNumber: number
+  wcExpiry: number
+  insuranceDocPath: number
+  siteInduction: number
+  ackSWMS: number
+  ackPPE: number
+  ackIncidentReporting: number
+  ackDrugAlcohol: number
+  ackEnvironmental: number
+  whsNotes: number
+  onboardingComplete: number
   _all: number
 }
 
@@ -96,12 +171,37 @@ export type SubcontractorMinAggregateInputType = {
   contactName?: true
   phone?: true
   email?: true
+  address?: true
   abn?: true
+  gstRegistered?: true
   insuranceExpiry?: true
   rateBasis?: true
   rating?: true
   notes?: true
   createdAt?: true
+  emergencyContactName?: true
+  emergencyContactPhone?: true
+  licenceNumber?: true
+  licenceExpiry?: true
+  whiteCardNumber?: true
+  whiteCardState?: true
+  additionalTickets?: true
+  licenceDocPath?: true
+  pliProvider?: true
+  pliPolicyNumber?: true
+  pliCoverAmount?: true
+  pliExpiry?: true
+  wcPolicyNumber?: true
+  wcExpiry?: true
+  insuranceDocPath?: true
+  siteInduction?: true
+  ackSWMS?: true
+  ackPPE?: true
+  ackIncidentReporting?: true
+  ackDrugAlcohol?: true
+  ackEnvironmental?: true
+  whsNotes?: true
+  onboardingComplete?: true
 }
 
 export type SubcontractorMaxAggregateInputType = {
@@ -111,12 +211,37 @@ export type SubcontractorMaxAggregateInputType = {
   contactName?: true
   phone?: true
   email?: true
+  address?: true
   abn?: true
+  gstRegistered?: true
   insuranceExpiry?: true
   rateBasis?: true
   rating?: true
   notes?: true
   createdAt?: true
+  emergencyContactName?: true
+  emergencyContactPhone?: true
+  licenceNumber?: true
+  licenceExpiry?: true
+  whiteCardNumber?: true
+  whiteCardState?: true
+  additionalTickets?: true
+  licenceDocPath?: true
+  pliProvider?: true
+  pliPolicyNumber?: true
+  pliCoverAmount?: true
+  pliExpiry?: true
+  wcPolicyNumber?: true
+  wcExpiry?: true
+  insuranceDocPath?: true
+  siteInduction?: true
+  ackSWMS?: true
+  ackPPE?: true
+  ackIncidentReporting?: true
+  ackDrugAlcohol?: true
+  ackEnvironmental?: true
+  whsNotes?: true
+  onboardingComplete?: true
 }
 
 export type SubcontractorCountAggregateInputType = {
@@ -126,12 +251,37 @@ export type SubcontractorCountAggregateInputType = {
   contactName?: true
   phone?: true
   email?: true
+  address?: true
   abn?: true
+  gstRegistered?: true
   insuranceExpiry?: true
   rateBasis?: true
   rating?: true
   notes?: true
   createdAt?: true
+  emergencyContactName?: true
+  emergencyContactPhone?: true
+  licenceNumber?: true
+  licenceExpiry?: true
+  whiteCardNumber?: true
+  whiteCardState?: true
+  additionalTickets?: true
+  licenceDocPath?: true
+  pliProvider?: true
+  pliPolicyNumber?: true
+  pliCoverAmount?: true
+  pliExpiry?: true
+  wcPolicyNumber?: true
+  wcExpiry?: true
+  insuranceDocPath?: true
+  siteInduction?: true
+  ackSWMS?: true
+  ackPPE?: true
+  ackIncidentReporting?: true
+  ackDrugAlcohol?: true
+  ackEnvironmental?: true
+  whsNotes?: true
+  onboardingComplete?: true
   _all?: true
 }
 
@@ -228,12 +378,37 @@ export type SubcontractorGroupByOutputType = {
   contactName: string | null
   phone: string | null
   email: string | null
+  address: string | null
   abn: string | null
+  gstRegistered: string | null
   insuranceExpiry: Date | null
   rateBasis: string | null
   rating: number | null
   notes: string | null
   createdAt: Date
+  emergencyContactName: string | null
+  emergencyContactPhone: string | null
+  licenceNumber: string | null
+  licenceExpiry: Date | null
+  whiteCardNumber: string | null
+  whiteCardState: string | null
+  additionalTickets: string | null
+  licenceDocPath: string | null
+  pliProvider: string | null
+  pliPolicyNumber: string | null
+  pliCoverAmount: string | null
+  pliExpiry: Date | null
+  wcPolicyNumber: string | null
+  wcExpiry: Date | null
+  insuranceDocPath: string | null
+  siteInduction: string | null
+  ackSWMS: boolean
+  ackPPE: boolean
+  ackIncidentReporting: boolean
+  ackDrugAlcohol: boolean
+  ackEnvironmental: boolean
+  whsNotes: string | null
+  onboardingComplete: boolean
   _count: SubcontractorCountAggregateOutputType | null
   _avg: SubcontractorAvgAggregateOutputType | null
   _sum: SubcontractorSumAggregateOutputType | null
@@ -266,12 +441,37 @@ export type SubcontractorWhereInput = {
   contactName?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   phone?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   email?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  address?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   abn?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  gstRegistered?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   insuranceExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
   rateBasis?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   rating?: Prisma.IntNullableFilter<"Subcontractor"> | number | null
   notes?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   createdAt?: Prisma.DateTimeFilter<"Subcontractor"> | Date | string
+  emergencyContactName?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  emergencyContactPhone?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  licenceNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  licenceExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
+  whiteCardNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  whiteCardState?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  additionalTickets?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  licenceDocPath?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliProvider?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliPolicyNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliCoverAmount?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
+  wcPolicyNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  wcExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
+  insuranceDocPath?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  siteInduction?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  ackSWMS?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackPPE?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackIncidentReporting?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackDrugAlcohol?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackEnvironmental?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  whsNotes?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  onboardingComplete?: Prisma.BoolFilter<"Subcontractor"> | boolean
   jobSubbies?: Prisma.JobSubbieListRelationFilter
 }
 
@@ -282,12 +482,37 @@ export type SubcontractorOrderByWithRelationInput = {
   contactName?: Prisma.SortOrderInput | Prisma.SortOrder
   phone?: Prisma.SortOrderInput | Prisma.SortOrder
   email?: Prisma.SortOrderInput | Prisma.SortOrder
+  address?: Prisma.SortOrderInput | Prisma.SortOrder
   abn?: Prisma.SortOrderInput | Prisma.SortOrder
+  gstRegistered?: Prisma.SortOrderInput | Prisma.SortOrder
   insuranceExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
   rateBasis?: Prisma.SortOrderInput | Prisma.SortOrder
   rating?: Prisma.SortOrderInput | Prisma.SortOrder
   notes?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
+  emergencyContactName?: Prisma.SortOrderInput | Prisma.SortOrder
+  emergencyContactPhone?: Prisma.SortOrderInput | Prisma.SortOrder
+  licenceNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  licenceExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
+  whiteCardNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  whiteCardState?: Prisma.SortOrderInput | Prisma.SortOrder
+  additionalTickets?: Prisma.SortOrderInput | Prisma.SortOrder
+  licenceDocPath?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliProvider?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliPolicyNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliCoverAmount?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
+  wcPolicyNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  wcExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
+  insuranceDocPath?: Prisma.SortOrderInput | Prisma.SortOrder
+  siteInduction?: Prisma.SortOrderInput | Prisma.SortOrder
+  ackSWMS?: Prisma.SortOrder
+  ackPPE?: Prisma.SortOrder
+  ackIncidentReporting?: Prisma.SortOrder
+  ackDrugAlcohol?: Prisma.SortOrder
+  ackEnvironmental?: Prisma.SortOrder
+  whsNotes?: Prisma.SortOrderInput | Prisma.SortOrder
+  onboardingComplete?: Prisma.SortOrder
   jobSubbies?: Prisma.JobSubbieOrderByRelationAggregateInput
 }
 
@@ -301,12 +526,37 @@ export type SubcontractorWhereUniqueInput = Prisma.AtLeast<{
   contactName?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   phone?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   email?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  address?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   abn?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  gstRegistered?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   insuranceExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
   rateBasis?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   rating?: Prisma.IntNullableFilter<"Subcontractor"> | number | null
   notes?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
   createdAt?: Prisma.DateTimeFilter<"Subcontractor"> | Date | string
+  emergencyContactName?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  emergencyContactPhone?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  licenceNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  licenceExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
+  whiteCardNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  whiteCardState?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  additionalTickets?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  licenceDocPath?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliProvider?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliPolicyNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliCoverAmount?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  pliExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
+  wcPolicyNumber?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  wcExpiry?: Prisma.DateTimeNullableFilter<"Subcontractor"> | Date | string | null
+  insuranceDocPath?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  siteInduction?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  ackSWMS?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackPPE?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackIncidentReporting?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackDrugAlcohol?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  ackEnvironmental?: Prisma.BoolFilter<"Subcontractor"> | boolean
+  whsNotes?: Prisma.StringNullableFilter<"Subcontractor"> | string | null
+  onboardingComplete?: Prisma.BoolFilter<"Subcontractor"> | boolean
   jobSubbies?: Prisma.JobSubbieListRelationFilter
 }, "id">
 
@@ -317,12 +567,37 @@ export type SubcontractorOrderByWithAggregationInput = {
   contactName?: Prisma.SortOrderInput | Prisma.SortOrder
   phone?: Prisma.SortOrderInput | Prisma.SortOrder
   email?: Prisma.SortOrderInput | Prisma.SortOrder
+  address?: Prisma.SortOrderInput | Prisma.SortOrder
   abn?: Prisma.SortOrderInput | Prisma.SortOrder
+  gstRegistered?: Prisma.SortOrderInput | Prisma.SortOrder
   insuranceExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
   rateBasis?: Prisma.SortOrderInput | Prisma.SortOrder
   rating?: Prisma.SortOrderInput | Prisma.SortOrder
   notes?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
+  emergencyContactName?: Prisma.SortOrderInput | Prisma.SortOrder
+  emergencyContactPhone?: Prisma.SortOrderInput | Prisma.SortOrder
+  licenceNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  licenceExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
+  whiteCardNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  whiteCardState?: Prisma.SortOrderInput | Prisma.SortOrder
+  additionalTickets?: Prisma.SortOrderInput | Prisma.SortOrder
+  licenceDocPath?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliProvider?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliPolicyNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliCoverAmount?: Prisma.SortOrderInput | Prisma.SortOrder
+  pliExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
+  wcPolicyNumber?: Prisma.SortOrderInput | Prisma.SortOrder
+  wcExpiry?: Prisma.SortOrderInput | Prisma.SortOrder
+  insuranceDocPath?: Prisma.SortOrderInput | Prisma.SortOrder
+  siteInduction?: Prisma.SortOrderInput | Prisma.SortOrder
+  ackSWMS?: Prisma.SortOrder
+  ackPPE?: Prisma.SortOrder
+  ackIncidentReporting?: Prisma.SortOrder
+  ackDrugAlcohol?: Prisma.SortOrder
+  ackEnvironmental?: Prisma.SortOrder
+  whsNotes?: Prisma.SortOrderInput | Prisma.SortOrder
+  onboardingComplete?: Prisma.SortOrder
   _count?: Prisma.SubcontractorCountOrderByAggregateInput
   _avg?: Prisma.SubcontractorAvgOrderByAggregateInput
   _max?: Prisma.SubcontractorMaxOrderByAggregateInput
@@ -340,12 +615,37 @@ export type SubcontractorScalarWhereWithAggregatesInput = {
   contactName?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
   phone?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
   email?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  address?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
   abn?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  gstRegistered?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
   insuranceExpiry?: Prisma.DateTimeNullableWithAggregatesFilter<"Subcontractor"> | Date | string | null
   rateBasis?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
   rating?: Prisma.IntNullableWithAggregatesFilter<"Subcontractor"> | number | null
   notes?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
   createdAt?: Prisma.DateTimeWithAggregatesFilter<"Subcontractor"> | Date | string
+  emergencyContactName?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  emergencyContactPhone?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  licenceNumber?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  licenceExpiry?: Prisma.DateTimeNullableWithAggregatesFilter<"Subcontractor"> | Date | string | null
+  whiteCardNumber?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  whiteCardState?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  additionalTickets?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  licenceDocPath?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  pliProvider?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  pliPolicyNumber?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  pliCoverAmount?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  pliExpiry?: Prisma.DateTimeNullableWithAggregatesFilter<"Subcontractor"> | Date | string | null
+  wcPolicyNumber?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  wcExpiry?: Prisma.DateTimeNullableWithAggregatesFilter<"Subcontractor"> | Date | string | null
+  insuranceDocPath?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  siteInduction?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  ackSWMS?: Prisma.BoolWithAggregatesFilter<"Subcontractor"> | boolean
+  ackPPE?: Prisma.BoolWithAggregatesFilter<"Subcontractor"> | boolean
+  ackIncidentReporting?: Prisma.BoolWithAggregatesFilter<"Subcontractor"> | boolean
+  ackDrugAlcohol?: Prisma.BoolWithAggregatesFilter<"Subcontractor"> | boolean
+  ackEnvironmental?: Prisma.BoolWithAggregatesFilter<"Subcontractor"> | boolean
+  whsNotes?: Prisma.StringNullableWithAggregatesFilter<"Subcontractor"> | string | null
+  onboardingComplete?: Prisma.BoolWithAggregatesFilter<"Subcontractor"> | boolean
 }
 
 export type SubcontractorCreateInput = {
@@ -355,12 +655,37 @@ export type SubcontractorCreateInput = {
   contactName?: string | null
   phone?: string | null
   email?: string | null
+  address?: string | null
   abn?: string | null
+  gstRegistered?: string | null
   insuranceExpiry?: Date | string | null
   rateBasis?: string | null
   rating?: number | null
   notes?: string | null
   createdAt?: Date | string
+  emergencyContactName?: string | null
+  emergencyContactPhone?: string | null
+  licenceNumber?: string | null
+  licenceExpiry?: Date | string | null
+  whiteCardNumber?: string | null
+  whiteCardState?: string | null
+  additionalTickets?: string | null
+  licenceDocPath?: string | null
+  pliProvider?: string | null
+  pliPolicyNumber?: string | null
+  pliCoverAmount?: string | null
+  pliExpiry?: Date | string | null
+  wcPolicyNumber?: string | null
+  wcExpiry?: Date | string | null
+  insuranceDocPath?: string | null
+  siteInduction?: string | null
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: string | null
+  onboardingComplete?: boolean
   jobSubbies?: Prisma.JobSubbieCreateNestedManyWithoutSubcontractorInput
 }
 
@@ -371,12 +696,37 @@ export type SubcontractorUncheckedCreateInput = {
   contactName?: string | null
   phone?: string | null
   email?: string | null
+  address?: string | null
   abn?: string | null
+  gstRegistered?: string | null
   insuranceExpiry?: Date | string | null
   rateBasis?: string | null
   rating?: number | null
   notes?: string | null
   createdAt?: Date | string
+  emergencyContactName?: string | null
+  emergencyContactPhone?: string | null
+  licenceNumber?: string | null
+  licenceExpiry?: Date | string | null
+  whiteCardNumber?: string | null
+  whiteCardState?: string | null
+  additionalTickets?: string | null
+  licenceDocPath?: string | null
+  pliProvider?: string | null
+  pliPolicyNumber?: string | null
+  pliCoverAmount?: string | null
+  pliExpiry?: Date | string | null
+  wcPolicyNumber?: string | null
+  wcExpiry?: Date | string | null
+  insuranceDocPath?: string | null
+  siteInduction?: string | null
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: string | null
+  onboardingComplete?: boolean
   jobSubbies?: Prisma.JobSubbieUncheckedCreateNestedManyWithoutSubcontractorInput
 }
 
@@ -387,12 +737,37 @@ export type SubcontractorUpdateInput = {
   contactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   phone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   email?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  address?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   abn?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  gstRegistered?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   insuranceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   rateBasis?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   rating?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  emergencyContactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  emergencyContactPhone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  whiteCardNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  whiteCardState?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  additionalTickets?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliProvider?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliCoverAmount?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  wcPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  wcExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  insuranceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  siteInduction?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  ackSWMS?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackPPE?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackIncidentReporting?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackDrugAlcohol?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackEnvironmental?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  whsNotes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  onboardingComplete?: Prisma.BoolFieldUpdateOperationsInput | boolean
   jobSubbies?: Prisma.JobSubbieUpdateManyWithoutSubcontractorNestedInput
 }
 
@@ -403,12 +778,37 @@ export type SubcontractorUncheckedUpdateInput = {
   contactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   phone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   email?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  address?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   abn?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  gstRegistered?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   insuranceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   rateBasis?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   rating?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  emergencyContactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  emergencyContactPhone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  whiteCardNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  whiteCardState?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  additionalTickets?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliProvider?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliCoverAmount?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  wcPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  wcExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  insuranceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  siteInduction?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  ackSWMS?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackPPE?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackIncidentReporting?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackDrugAlcohol?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackEnvironmental?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  whsNotes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  onboardingComplete?: Prisma.BoolFieldUpdateOperationsInput | boolean
   jobSubbies?: Prisma.JobSubbieUncheckedUpdateManyWithoutSubcontractorNestedInput
 }
 
@@ -419,12 +819,37 @@ export type SubcontractorCreateManyInput = {
   contactName?: string | null
   phone?: string | null
   email?: string | null
+  address?: string | null
   abn?: string | null
+  gstRegistered?: string | null
   insuranceExpiry?: Date | string | null
   rateBasis?: string | null
   rating?: number | null
   notes?: string | null
   createdAt?: Date | string
+  emergencyContactName?: string | null
+  emergencyContactPhone?: string | null
+  licenceNumber?: string | null
+  licenceExpiry?: Date | string | null
+  whiteCardNumber?: string | null
+  whiteCardState?: string | null
+  additionalTickets?: string | null
+  licenceDocPath?: string | null
+  pliProvider?: string | null
+  pliPolicyNumber?: string | null
+  pliCoverAmount?: string | null
+  pliExpiry?: Date | string | null
+  wcPolicyNumber?: string | null
+  wcExpiry?: Date | string | null
+  insuranceDocPath?: string | null
+  siteInduction?: string | null
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: string | null
+  onboardingComplete?: boolean
 }
 
 export type SubcontractorUpdateManyMutationInput = {
@@ -434,12 +859,37 @@ export type SubcontractorUpdateManyMutationInput = {
   contactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   phone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   email?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  address?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   abn?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  gstRegistered?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   insuranceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   rateBasis?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   rating?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  emergencyContactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  emergencyContactPhone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  whiteCardNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  whiteCardState?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  additionalTickets?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliProvider?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliCoverAmount?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  wcPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  wcExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  insuranceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  siteInduction?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  ackSWMS?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackPPE?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackIncidentReporting?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackDrugAlcohol?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackEnvironmental?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  whsNotes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  onboardingComplete?: Prisma.BoolFieldUpdateOperationsInput | boolean
 }
 
 export type SubcontractorUncheckedUpdateManyInput = {
@@ -449,12 +899,37 @@ export type SubcontractorUncheckedUpdateManyInput = {
   contactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   phone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   email?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  address?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   abn?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  gstRegistered?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   insuranceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   rateBasis?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   rating?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  emergencyContactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  emergencyContactPhone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  whiteCardNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  whiteCardState?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  additionalTickets?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliProvider?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliCoverAmount?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  wcPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  wcExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  insuranceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  siteInduction?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  ackSWMS?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackPPE?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackIncidentReporting?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackDrugAlcohol?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackEnvironmental?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  whsNotes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  onboardingComplete?: Prisma.BoolFieldUpdateOperationsInput | boolean
 }
 
 export type SubcontractorCountOrderByAggregateInput = {
@@ -464,12 +939,37 @@ export type SubcontractorCountOrderByAggregateInput = {
   contactName?: Prisma.SortOrder
   phone?: Prisma.SortOrder
   email?: Prisma.SortOrder
+  address?: Prisma.SortOrder
   abn?: Prisma.SortOrder
+  gstRegistered?: Prisma.SortOrder
   insuranceExpiry?: Prisma.SortOrder
   rateBasis?: Prisma.SortOrder
   rating?: Prisma.SortOrder
   notes?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
+  emergencyContactName?: Prisma.SortOrder
+  emergencyContactPhone?: Prisma.SortOrder
+  licenceNumber?: Prisma.SortOrder
+  licenceExpiry?: Prisma.SortOrder
+  whiteCardNumber?: Prisma.SortOrder
+  whiteCardState?: Prisma.SortOrder
+  additionalTickets?: Prisma.SortOrder
+  licenceDocPath?: Prisma.SortOrder
+  pliProvider?: Prisma.SortOrder
+  pliPolicyNumber?: Prisma.SortOrder
+  pliCoverAmount?: Prisma.SortOrder
+  pliExpiry?: Prisma.SortOrder
+  wcPolicyNumber?: Prisma.SortOrder
+  wcExpiry?: Prisma.SortOrder
+  insuranceDocPath?: Prisma.SortOrder
+  siteInduction?: Prisma.SortOrder
+  ackSWMS?: Prisma.SortOrder
+  ackPPE?: Prisma.SortOrder
+  ackIncidentReporting?: Prisma.SortOrder
+  ackDrugAlcohol?: Prisma.SortOrder
+  ackEnvironmental?: Prisma.SortOrder
+  whsNotes?: Prisma.SortOrder
+  onboardingComplete?: Prisma.SortOrder
 }
 
 export type SubcontractorAvgOrderByAggregateInput = {
@@ -483,12 +983,37 @@ export type SubcontractorMaxOrderByAggregateInput = {
   contactName?: Prisma.SortOrder
   phone?: Prisma.SortOrder
   email?: Prisma.SortOrder
+  address?: Prisma.SortOrder
   abn?: Prisma.SortOrder
+  gstRegistered?: Prisma.SortOrder
   insuranceExpiry?: Prisma.SortOrder
   rateBasis?: Prisma.SortOrder
   rating?: Prisma.SortOrder
   notes?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
+  emergencyContactName?: Prisma.SortOrder
+  emergencyContactPhone?: Prisma.SortOrder
+  licenceNumber?: Prisma.SortOrder
+  licenceExpiry?: Prisma.SortOrder
+  whiteCardNumber?: Prisma.SortOrder
+  whiteCardState?: Prisma.SortOrder
+  additionalTickets?: Prisma.SortOrder
+  licenceDocPath?: Prisma.SortOrder
+  pliProvider?: Prisma.SortOrder
+  pliPolicyNumber?: Prisma.SortOrder
+  pliCoverAmount?: Prisma.SortOrder
+  pliExpiry?: Prisma.SortOrder
+  wcPolicyNumber?: Prisma.SortOrder
+  wcExpiry?: Prisma.SortOrder
+  insuranceDocPath?: Prisma.SortOrder
+  siteInduction?: Prisma.SortOrder
+  ackSWMS?: Prisma.SortOrder
+  ackPPE?: Prisma.SortOrder
+  ackIncidentReporting?: Prisma.SortOrder
+  ackDrugAlcohol?: Prisma.SortOrder
+  ackEnvironmental?: Prisma.SortOrder
+  whsNotes?: Prisma.SortOrder
+  onboardingComplete?: Prisma.SortOrder
 }
 
 export type SubcontractorMinOrderByAggregateInput = {
@@ -498,12 +1023,37 @@ export type SubcontractorMinOrderByAggregateInput = {
   contactName?: Prisma.SortOrder
   phone?: Prisma.SortOrder
   email?: Prisma.SortOrder
+  address?: Prisma.SortOrder
   abn?: Prisma.SortOrder
+  gstRegistered?: Prisma.SortOrder
   insuranceExpiry?: Prisma.SortOrder
   rateBasis?: Prisma.SortOrder
   rating?: Prisma.SortOrder
   notes?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
+  emergencyContactName?: Prisma.SortOrder
+  emergencyContactPhone?: Prisma.SortOrder
+  licenceNumber?: Prisma.SortOrder
+  licenceExpiry?: Prisma.SortOrder
+  whiteCardNumber?: Prisma.SortOrder
+  whiteCardState?: Prisma.SortOrder
+  additionalTickets?: Prisma.SortOrder
+  licenceDocPath?: Prisma.SortOrder
+  pliProvider?: Prisma.SortOrder
+  pliPolicyNumber?: Prisma.SortOrder
+  pliCoverAmount?: Prisma.SortOrder
+  pliExpiry?: Prisma.SortOrder
+  wcPolicyNumber?: Prisma.SortOrder
+  wcExpiry?: Prisma.SortOrder
+  insuranceDocPath?: Prisma.SortOrder
+  siteInduction?: Prisma.SortOrder
+  ackSWMS?: Prisma.SortOrder
+  ackPPE?: Prisma.SortOrder
+  ackIncidentReporting?: Prisma.SortOrder
+  ackDrugAlcohol?: Prisma.SortOrder
+  ackEnvironmental?: Prisma.SortOrder
+  whsNotes?: Prisma.SortOrder
+  onboardingComplete?: Prisma.SortOrder
 }
 
 export type SubcontractorSumOrderByAggregateInput = {
@@ -521,6 +1071,10 @@ export type NullableIntFieldUpdateOperationsInput = {
   decrement?: number
   multiply?: number
   divide?: number
+}
+
+export type BoolFieldUpdateOperationsInput = {
+  set?: boolean
 }
 
 export type SubcontractorCreateNestedOneWithoutJobSubbiesInput = {
@@ -544,12 +1098,37 @@ export type SubcontractorCreateWithoutJobSubbiesInput = {
   contactName?: string | null
   phone?: string | null
   email?: string | null
+  address?: string | null
   abn?: string | null
+  gstRegistered?: string | null
   insuranceExpiry?: Date | string | null
   rateBasis?: string | null
   rating?: number | null
   notes?: string | null
   createdAt?: Date | string
+  emergencyContactName?: string | null
+  emergencyContactPhone?: string | null
+  licenceNumber?: string | null
+  licenceExpiry?: Date | string | null
+  whiteCardNumber?: string | null
+  whiteCardState?: string | null
+  additionalTickets?: string | null
+  licenceDocPath?: string | null
+  pliProvider?: string | null
+  pliPolicyNumber?: string | null
+  pliCoverAmount?: string | null
+  pliExpiry?: Date | string | null
+  wcPolicyNumber?: string | null
+  wcExpiry?: Date | string | null
+  insuranceDocPath?: string | null
+  siteInduction?: string | null
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: string | null
+  onboardingComplete?: boolean
 }
 
 export type SubcontractorUncheckedCreateWithoutJobSubbiesInput = {
@@ -559,12 +1138,37 @@ export type SubcontractorUncheckedCreateWithoutJobSubbiesInput = {
   contactName?: string | null
   phone?: string | null
   email?: string | null
+  address?: string | null
   abn?: string | null
+  gstRegistered?: string | null
   insuranceExpiry?: Date | string | null
   rateBasis?: string | null
   rating?: number | null
   notes?: string | null
   createdAt?: Date | string
+  emergencyContactName?: string | null
+  emergencyContactPhone?: string | null
+  licenceNumber?: string | null
+  licenceExpiry?: Date | string | null
+  whiteCardNumber?: string | null
+  whiteCardState?: string | null
+  additionalTickets?: string | null
+  licenceDocPath?: string | null
+  pliProvider?: string | null
+  pliPolicyNumber?: string | null
+  pliCoverAmount?: string | null
+  pliExpiry?: Date | string | null
+  wcPolicyNumber?: string | null
+  wcExpiry?: Date | string | null
+  insuranceDocPath?: string | null
+  siteInduction?: string | null
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: string | null
+  onboardingComplete?: boolean
 }
 
 export type SubcontractorCreateOrConnectWithoutJobSubbiesInput = {
@@ -590,12 +1194,37 @@ export type SubcontractorUpdateWithoutJobSubbiesInput = {
   contactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   phone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   email?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  address?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   abn?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  gstRegistered?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   insuranceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   rateBasis?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   rating?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  emergencyContactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  emergencyContactPhone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  whiteCardNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  whiteCardState?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  additionalTickets?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliProvider?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliCoverAmount?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  wcPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  wcExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  insuranceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  siteInduction?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  ackSWMS?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackPPE?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackIncidentReporting?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackDrugAlcohol?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackEnvironmental?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  whsNotes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  onboardingComplete?: Prisma.BoolFieldUpdateOperationsInput | boolean
 }
 
 export type SubcontractorUncheckedUpdateWithoutJobSubbiesInput = {
@@ -605,12 +1234,37 @@ export type SubcontractorUncheckedUpdateWithoutJobSubbiesInput = {
   contactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   phone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   email?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  address?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   abn?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  gstRegistered?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   insuranceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   rateBasis?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   rating?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  emergencyContactName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  emergencyContactPhone?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  whiteCardNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  whiteCardState?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  additionalTickets?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  licenceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliProvider?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliCoverAmount?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  pliExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  wcPolicyNumber?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  wcExpiry?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  insuranceDocPath?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  siteInduction?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  ackSWMS?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackPPE?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackIncidentReporting?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackDrugAlcohol?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  ackEnvironmental?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  whsNotes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  onboardingComplete?: Prisma.BoolFieldUpdateOperationsInput | boolean
 }
 
 
@@ -651,12 +1305,37 @@ export type SubcontractorSelect<ExtArgs extends runtime.Types.Extensions.Interna
   contactName?: boolean
   phone?: boolean
   email?: boolean
+  address?: boolean
   abn?: boolean
+  gstRegistered?: boolean
   insuranceExpiry?: boolean
   rateBasis?: boolean
   rating?: boolean
   notes?: boolean
   createdAt?: boolean
+  emergencyContactName?: boolean
+  emergencyContactPhone?: boolean
+  licenceNumber?: boolean
+  licenceExpiry?: boolean
+  whiteCardNumber?: boolean
+  whiteCardState?: boolean
+  additionalTickets?: boolean
+  licenceDocPath?: boolean
+  pliProvider?: boolean
+  pliPolicyNumber?: boolean
+  pliCoverAmount?: boolean
+  pliExpiry?: boolean
+  wcPolicyNumber?: boolean
+  wcExpiry?: boolean
+  insuranceDocPath?: boolean
+  siteInduction?: boolean
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: boolean
+  onboardingComplete?: boolean
   jobSubbies?: boolean | Prisma.Subcontractor$jobSubbiesArgs<ExtArgs>
   _count?: boolean | Prisma.SubcontractorCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["subcontractor"]>
@@ -668,12 +1347,37 @@ export type SubcontractorSelectCreateManyAndReturn<ExtArgs extends runtime.Types
   contactName?: boolean
   phone?: boolean
   email?: boolean
+  address?: boolean
   abn?: boolean
+  gstRegistered?: boolean
   insuranceExpiry?: boolean
   rateBasis?: boolean
   rating?: boolean
   notes?: boolean
   createdAt?: boolean
+  emergencyContactName?: boolean
+  emergencyContactPhone?: boolean
+  licenceNumber?: boolean
+  licenceExpiry?: boolean
+  whiteCardNumber?: boolean
+  whiteCardState?: boolean
+  additionalTickets?: boolean
+  licenceDocPath?: boolean
+  pliProvider?: boolean
+  pliPolicyNumber?: boolean
+  pliCoverAmount?: boolean
+  pliExpiry?: boolean
+  wcPolicyNumber?: boolean
+  wcExpiry?: boolean
+  insuranceDocPath?: boolean
+  siteInduction?: boolean
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: boolean
+  onboardingComplete?: boolean
 }, ExtArgs["result"]["subcontractor"]>
 
 export type SubcontractorSelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -683,12 +1387,37 @@ export type SubcontractorSelectUpdateManyAndReturn<ExtArgs extends runtime.Types
   contactName?: boolean
   phone?: boolean
   email?: boolean
+  address?: boolean
   abn?: boolean
+  gstRegistered?: boolean
   insuranceExpiry?: boolean
   rateBasis?: boolean
   rating?: boolean
   notes?: boolean
   createdAt?: boolean
+  emergencyContactName?: boolean
+  emergencyContactPhone?: boolean
+  licenceNumber?: boolean
+  licenceExpiry?: boolean
+  whiteCardNumber?: boolean
+  whiteCardState?: boolean
+  additionalTickets?: boolean
+  licenceDocPath?: boolean
+  pliProvider?: boolean
+  pliPolicyNumber?: boolean
+  pliCoverAmount?: boolean
+  pliExpiry?: boolean
+  wcPolicyNumber?: boolean
+  wcExpiry?: boolean
+  insuranceDocPath?: boolean
+  siteInduction?: boolean
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: boolean
+  onboardingComplete?: boolean
 }, ExtArgs["result"]["subcontractor"]>
 
 export type SubcontractorSelectScalar = {
@@ -698,15 +1427,40 @@ export type SubcontractorSelectScalar = {
   contactName?: boolean
   phone?: boolean
   email?: boolean
+  address?: boolean
   abn?: boolean
+  gstRegistered?: boolean
   insuranceExpiry?: boolean
   rateBasis?: boolean
   rating?: boolean
   notes?: boolean
   createdAt?: boolean
+  emergencyContactName?: boolean
+  emergencyContactPhone?: boolean
+  licenceNumber?: boolean
+  licenceExpiry?: boolean
+  whiteCardNumber?: boolean
+  whiteCardState?: boolean
+  additionalTickets?: boolean
+  licenceDocPath?: boolean
+  pliProvider?: boolean
+  pliPolicyNumber?: boolean
+  pliCoverAmount?: boolean
+  pliExpiry?: boolean
+  wcPolicyNumber?: boolean
+  wcExpiry?: boolean
+  insuranceDocPath?: boolean
+  siteInduction?: boolean
+  ackSWMS?: boolean
+  ackPPE?: boolean
+  ackIncidentReporting?: boolean
+  ackDrugAlcohol?: boolean
+  ackEnvironmental?: boolean
+  whsNotes?: boolean
+  onboardingComplete?: boolean
 }
 
-export type SubcontractorOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "trade" | "companyName" | "contactName" | "phone" | "email" | "abn" | "insuranceExpiry" | "rateBasis" | "rating" | "notes" | "createdAt", ExtArgs["result"]["subcontractor"]>
+export type SubcontractorOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "trade" | "companyName" | "contactName" | "phone" | "email" | "address" | "abn" | "gstRegistered" | "insuranceExpiry" | "rateBasis" | "rating" | "notes" | "createdAt" | "emergencyContactName" | "emergencyContactPhone" | "licenceNumber" | "licenceExpiry" | "whiteCardNumber" | "whiteCardState" | "additionalTickets" | "licenceDocPath" | "pliProvider" | "pliPolicyNumber" | "pliCoverAmount" | "pliExpiry" | "wcPolicyNumber" | "wcExpiry" | "insuranceDocPath" | "siteInduction" | "ackSWMS" | "ackPPE" | "ackIncidentReporting" | "ackDrugAlcohol" | "ackEnvironmental" | "whsNotes" | "onboardingComplete", ExtArgs["result"]["subcontractor"]>
 export type SubcontractorInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   jobSubbies?: boolean | Prisma.Subcontractor$jobSubbiesArgs<ExtArgs>
   _count?: boolean | Prisma.SubcontractorCountOutputTypeDefaultArgs<ExtArgs>
@@ -726,12 +1480,37 @@ export type $SubcontractorPayload<ExtArgs extends runtime.Types.Extensions.Inter
     contactName: string | null
     phone: string | null
     email: string | null
+    address: string | null
     abn: string | null
+    gstRegistered: string | null
     insuranceExpiry: Date | null
     rateBasis: string | null
     rating: number | null
     notes: string | null
     createdAt: Date
+    emergencyContactName: string | null
+    emergencyContactPhone: string | null
+    licenceNumber: string | null
+    licenceExpiry: Date | null
+    whiteCardNumber: string | null
+    whiteCardState: string | null
+    additionalTickets: string | null
+    licenceDocPath: string | null
+    pliProvider: string | null
+    pliPolicyNumber: string | null
+    pliCoverAmount: string | null
+    pliExpiry: Date | null
+    wcPolicyNumber: string | null
+    wcExpiry: Date | null
+    insuranceDocPath: string | null
+    siteInduction: string | null
+    ackSWMS: boolean
+    ackPPE: boolean
+    ackIncidentReporting: boolean
+    ackDrugAlcohol: boolean
+    ackEnvironmental: boolean
+    whsNotes: string | null
+    onboardingComplete: boolean
   }, ExtArgs["result"]["subcontractor"]>
   composites: {}
 }
@@ -1162,12 +1941,37 @@ export interface SubcontractorFieldRefs {
   readonly contactName: Prisma.FieldRef<"Subcontractor", 'String'>
   readonly phone: Prisma.FieldRef<"Subcontractor", 'String'>
   readonly email: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly address: Prisma.FieldRef<"Subcontractor", 'String'>
   readonly abn: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly gstRegistered: Prisma.FieldRef<"Subcontractor", 'String'>
   readonly insuranceExpiry: Prisma.FieldRef<"Subcontractor", 'DateTime'>
   readonly rateBasis: Prisma.FieldRef<"Subcontractor", 'String'>
   readonly rating: Prisma.FieldRef<"Subcontractor", 'Int'>
   readonly notes: Prisma.FieldRef<"Subcontractor", 'String'>
   readonly createdAt: Prisma.FieldRef<"Subcontractor", 'DateTime'>
+  readonly emergencyContactName: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly emergencyContactPhone: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly licenceNumber: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly licenceExpiry: Prisma.FieldRef<"Subcontractor", 'DateTime'>
+  readonly whiteCardNumber: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly whiteCardState: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly additionalTickets: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly licenceDocPath: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly pliProvider: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly pliPolicyNumber: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly pliCoverAmount: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly pliExpiry: Prisma.FieldRef<"Subcontractor", 'DateTime'>
+  readonly wcPolicyNumber: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly wcExpiry: Prisma.FieldRef<"Subcontractor", 'DateTime'>
+  readonly insuranceDocPath: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly siteInduction: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly ackSWMS: Prisma.FieldRef<"Subcontractor", 'Boolean'>
+  readonly ackPPE: Prisma.FieldRef<"Subcontractor", 'Boolean'>
+  readonly ackIncidentReporting: Prisma.FieldRef<"Subcontractor", 'Boolean'>
+  readonly ackDrugAlcohol: Prisma.FieldRef<"Subcontractor", 'Boolean'>
+  readonly ackEnvironmental: Prisma.FieldRef<"Subcontractor", 'Boolean'>
+  readonly whsNotes: Prisma.FieldRef<"Subcontractor", 'String'>
+  readonly onboardingComplete: Prisma.FieldRef<"Subcontractor", 'Boolean'>
 }
     
 
