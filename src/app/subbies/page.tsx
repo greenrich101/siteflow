@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { format, isPast, isBefore, addDays } from "date-fns";
-import { Star, Plus, HardHat } from "lucide-react";
+import { Star, Plus, HardHat, Download } from "lucide-react";
 import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
@@ -275,6 +275,16 @@ export default function SubbiesPage() {
                 ))}
               </SelectContent>
             </Select>
+            <Button
+              variant="outline"
+              onClick={() => {
+                window.open("/api/export?type=subbies", "_blank");
+                toast.success("Exporting subbies to Excel...");
+              }}
+            >
+              <Download className="size-4" data-icon="inline-start" />
+              Export Excel
+            </Button>
             <Button onClick={openAdd}>
               <Plus className="size-4" data-icon="inline-start" />
               Add Subcontractor

@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
-import { Building2, Plus, DollarSign, Calendar, Briefcase, FileText } from "lucide-react";
+import { Building2, Plus, DollarSign, Calendar, Briefcase, FileText, Download } from "lucide-react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -162,13 +162,24 @@ export default function DashboardPage() {
           </p>
         </div>
 
-        <Dialog open={dialogOpen} onOpenChange={(open) => setDialogOpen(open)}>
-          <DialogTrigger asChild>
-            <Button className="bg-slate-800 hover:bg-slate-700 text-white">
-              <Plus className="mr-2 h-4 w-4" />
-              New Job
-            </Button>
-          </DialogTrigger>
+        <div className="flex gap-2">
+          <Button
+            variant="outline"
+            onClick={() => {
+              window.open("/api/export?type=all", "_blank");
+              toast.success("Exporting to Excel...");
+            }}
+          >
+            <Download className="mr-2 h-4 w-4" />
+            Export Excel
+          </Button>
+          <Dialog open={dialogOpen} onOpenChange={(open) => setDialogOpen(open)}>
+            <DialogTrigger asChild>
+              <Button className="bg-slate-800 hover:bg-slate-700 text-white">
+                <Plus className="mr-2 h-4 w-4" />
+                New Job
+              </Button>
+            </DialogTrigger>
           <DialogContent className="sm:max-w-lg">
             <DialogHeader>
               <DialogTitle>Create New Job</DialogTitle>
@@ -251,6 +262,7 @@ export default function DashboardPage() {
             </form>
           </DialogContent>
         </Dialog>
+        </div>
       </div>
 
       {/* Stats bar */}
