@@ -420,9 +420,9 @@ export default function DashboardPage() {
                           </span>
                           <Link
                             href={`/jobs/${job.id}`}
-                            className="inline-flex items-center rounded-md bg-slate-100 px-3 py-1.5 text-xs font-medium text-slate-700 transition-colors hover:bg-slate-200"
+                            className="inline-flex items-center rounded-md bg-slate-800 px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-slate-900"
                           >
-                            View
+                            Open Job
                           </Link>
                         </div>
                       </CardContent>
